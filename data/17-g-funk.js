@@ -1,0 +1,56 @@
+COMEUP.chapter({ n: 17, label: 'Cap. 16', title: 'A Higher Level of Execution' });
+COMEUP.add([
+  { id: 'g-funk', name: 'G-funk: The Chronic, Death Row y Snoop Doggy Dogg', family: 'oeste', start: 1991, end: 1997, place: 'Los Ángeles y Long Beach',
+    aka: ['The Chronic', 'Death Row Records', 'Suge Knight', 'Doggystyle', 'Interscope', 'Above the Law', 'Black Mafia Life'],
+    desc: 'Hay un antes y un después de The Chronic (diciembre de 1992): samples de Parliament-Funkadelic, bajos lentos de Moog y músicos tocando encima, un sonido perezoso y amenazante a la vez, con Snoop Doggy Dogg, Nate Dogg, Daz, Warren G, Kurupt, The Lady of Rage y RBX. Lo publicó Death Row, fundada por Dr. Dre, The D.O.C., Dick Griffey y Marion «Suge» Knight, exguardaespaldas que «liberó» a Dre, D.O.C. y Michel’le de Ruthless con el dinero de un traficante preso, Michael «Harry-O» Harris; Interscope (Jimmy Iovine y Ted Field) lo financió y distribuyó. Snoop, de Long Beach, había hecho maquetas con Sir Jinx y formado 213 con Warren G y Nate Dogg; debutó en «Deep Cover». «Nuthin’ but a ‘G’ Thang» se grabó tres veces y vendió ocho millones (siete y medio a chavales blancos): con versiones de radio sin tacos, el gangsta llegó a todas partes, y SoundScan (1991), que contaba ventas reales, demostró su peso. Doggystyle (1993), con «Who Am I (What’s My Name)?» sobre «Atomic Dog», vendió ochocientos mil discos en una semana. Cold 187um (hijo y sobrino de los Hutch de Motown) reclama la invención del G-funk con Above the Law en Black Mafia Life; Warren G, fichado por Def Jam tras «Indo Smoke», lo llevó al pop con «Regulate» (sobre Michael McDonald). Death Row dominó con Dre, Snoop y Tupac y se hundió tras la muerte de este; Knight cumple veintiocho años de cárcel por atropellar mortalmente a Terry Carter en 2015.',
+    artists: ['Dr. Dre', 'Snoop Doggy Dogg', 'Nate Dogg', 'Warren G', 'Daz Dillinger', 'Kurupt', 'The Lady of Rage', 'RBX', 'The D.O.C.', 'Suge Knight', 'Dick Griffey', 'Michael “Harry-O” Harris', 'Michel’le', 'Jimmy Iovine', 'Ted Field', 'Colin Wolfe', 'Chris “The Glove” Taylor', 'Fabian “Fade” Duvernay', 'Cold 187um', 'KMG the Illustrator', 'Kokane', 'Mista Grimm', 'Paul Stewart', 'John Singleton', 'Fredwreck', 'Bud’da'],
+    labels: ['Death Row Records', 'Interscope Records', 'Ruthless Records', 'Def Jam', 'Nielsen SoundScan', 'VIP Records'],
+    tracks: [
+      { a: 'Dr. Dre', t: 'Deep Cover', y: 1992 },
+      { a: 'Dr. Dre', t: 'The Chronic', y: 1992, ess: 1 },
+      { a: 'Dr. Dre', t: 'Nuthin’ but a “G” Thang', y: 1992 },
+      { a: 'Dr. Dre', t: 'Fuck wit Dre Day (And Everybody’s Celebratin’)', y: 1993 },
+      { a: 'Dr. Dre', t: 'Let Me Ride', y: 1993 },
+      { a: 'Snoop Doggy Dogg', t: 'Doggystyle', y: 1993, yq: 'Snoop Doggy Dogg Doggystyle full album', ess: 1 },
+      { a: 'Snoop Doggy Dogg', t: 'Who Am I (What’s My Name)?', y: 1993 },
+      { a: 'George Clinton', t: 'Atomic Dog', y: 1982 },
+      { a: 'Above the Law', t: 'Black Mafia Life', y: 1993 },
+      { a: 'Eazy-E', t: 'Appetite for Destruction', y: 1991 },
+      { a: 'N.W.A', t: 'Efil4zaggin', y: 1991, yq: 'NWA Niggaz4Life full album' },
+      { a: 'Mista Grimm', t: 'Indo Smoke', y: 1993 },
+      { a: '2Pac', t: 'Definition of a Thug Nigga', y: 1993 },
+      { a: 'Warren G', t: 'Regulate', y: 1994 },
+      { a: 'Warren G', t: 'Regulate… G Funk Era', y: 1994, ess: 1 },
+      { a: 'Michael McDonald', t: 'I Keep Forgettin’ (Every Time You’re Near)', y: 1982 },
+      { a: 'Vanilla Ice', t: 'Ice Ice Baby', y: 1990 },
+    ],
+    influences: ['nwa', 'digital-underground', 'ice-t'],
+    refs: [
+      { q: 'G-funk is heavily influenced by Parliament-Funkadelic, and that’s really all it comes down to.' },
+      { q: 'It’s like a movie.' },
+      { q: 'It’s just constantly about achieving a higher level of execution.' },
+      { q: 'We broke with Black kids, but the other seven and a half million, that’s white kids.' },
+      { q: '“I call it a G-funk, man.”' },
+    ] },
+  { id: 'quik-eiht-cypress', name: 'DJ Quik, MC Eiht y Cypress Hill', family: 'oeste', start: 1990, end: 2000, place: 'Compton, South Gate y East Los Angeles',
+    aka: ['DJ Quik', 'MC Eiht', 'Compton’s Most Wanted', 'Cypress Hill', 'DJ Muggs'],
+    desc: 'Fuera de Death Row, DJ Quik y MC Eiht, a menudo rivales, retrataron Compton: Quik, que aprendió sampleando «Computer Love» en la caja de ritmos que Kelvin Anderson compró a Sir Jinx, fue un productor de G-funk muy musical, «al nivel de Rakim» para los angelinos. Cypress Hill (Sen Dog, B-Real y DJ Muggs), de South Gate, unieron inglés y castellano, Compton y East L.A., y la marihuana sin complejos; su primer disco (Ruffhouse, 1991) tenía temática del Oeste y bases del Este, con «The Phuncky Feel One» / «How I Could Just Kill a Man».',
+    artists: ['DJ Quik', 'MC Eiht', 'Cypress Hill', 'Sen Dog', 'B-Real', 'DJ Muggs', 'Chris Schwartz', 'Zaytoven'],
+    labels: ['Profile Records', 'Ruffhouse Records'],
+    tracks: [
+      { a: 'DJ Quik', t: 'Quik Is the Name', y: 1991, ess: 1 },
+      { a: 'DJ Quik', t: 'Born and Raised in Compton', y: 1991 },
+      { a: 'Zapp', t: 'Computer Love', y: 1985 },
+      { a: 'Cypress Hill', t: 'Cypress Hill', y: 1991, ess: 1 },
+      { a: 'Cypress Hill', t: 'How I Could Just Kill a Man', y: 1991 },
+      { a: 'Cypress Hill', t: 'The Phuncky Feel One', y: 1991 },
+    ],
+    influences: ['nwa', 'kday'],
+    refs: [{ q: 'It was West Coast subject matter and vernacular, but the beats were East Coast.' }] },
+], 17);
+// Canciones citadas entre comillas (tools/mentions.py)
+COMEUP.add([
+  { id: 'g-funk', tracks: [
+    { a: 'Queen & David Bowie', t: 'Under Pressure', y: 1981 },
+  ] },
+], 17);

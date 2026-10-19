@@ -1,0 +1,66 @@
+COMEUP.chapter({ n: 15, label: 'Cap. 14', title: 'Out Hustling' });
+COMEUP.add([
+  { id: 'too-short', name: 'Too $hort, Ant Banks y el Oakland independiente', family: 'oeste', start: 1983, end: 2000, place: 'Oakland (East Oakland)',
+    aka: ['Too $hort', '75 Girls', 'Dangerous Crew', 'Ant Banks', 'Born to Mack', 'Sick Wid’ It'],
+    desc: 'La bahía, lejos de los grandes mercados como el Sur, tuvo una escena independiente de «hazlo tú mismo»: Todd Shaw, llegado de Los Ángeles, vendía cintas a medida con Freddy B y desde el maletero; los camellos se pasaban sus cintas. Con Don’t Stop Rappin’ (1983) en su sello 75 Girls, «Shortrapp» y «Girl (Cocaine)» hablaba sucio de cocaína, chulos y «bitches» antes de N.W.A o Ice-T. Jive reeditó Born to Mack (1988), con «Freaky Tales»: las fábricas de prensado se negaban, no sonó en radio y llegó al platino, primero en el Sur. Ant Banks, que aprendía Parliament en un Casio, vendía cintas con MC Ant; con Too $hort montó la Dangerous Crew, músicos de funk (Shorty B, Sean G, Pee Wee) y raperos (Dangerous Dame, Spice 1, Rappin’ Ron), y Shorty the Pimp (1992). Quería hacer de Oakland una pequeña Motown independiente: «¿para qué queremos los sellos?». Ritmos lentos con el bajo grave, hechos para el coche; sellos como Sick Wid’ It de E-40, Strictly Business de The Mac y Mac Dre o Get Low de JT the Bigga Figga: «hicimos nosotros la industria».',
+    artists: ['Too $hort', 'Freddy B', 'Ant Banks', 'MC Ant', 'Dangerous Crew', 'Shorty B', 'Spice 1', 'Dangerous Dame', 'Rappin’ Ron', 'Ant Diddley Dog', 'Pooh-Man', 'K-Cloud', 'E-40', 'Mac Mall', 'JT the Bigga Figga', 'Barry Weiss'],
+    labels: ['75 Girls Records and Tapes', 'Jive Records', 'KSOL', 'Sick Wid’ It Records', 'Strictly Business Records', 'Get Low Recordz', 'Kesha’s Inn'],
+    tracks: [
+      { a: 'Too $hort', t: 'Don’t Stop Rappin’', y: 1983 },
+      { a: 'Too $hort', t: 'Girl (Cocaine)', y: 1985 },
+      { a: 'Too $hort', t: 'Born to Mack', y: 1987, ess: 1 },
+      { a: 'Too $hort', t: 'Freaky Tales', y: 1987 },
+      { a: 'Dangerous Crew', t: 'Only the Strong Survive', y: 1993, yq: 'Too Short Dangerous Crew Only the Strong Survive' },
+      { a: 'Spice 1', t: 'Trigga Gots No Heart', y: 1993 },
+      { a: 'Too $hort', t: 'Shorty the Pimp', y: 1992, ess: 1 },
+      { a: 'Too $hort', t: 'In the Trunk', y: 1992 },
+      { a: 'Too $hort', t: 'So You Want to Be a Gangster', y: 1992 },
+      { a: 'Pooh-Man', t: 'Fuckin’ wit’ Dank', y: 1991 },
+    ],
+    influences: ['schoolly-d', 'furious-five'],
+    refs: [
+      { q: 'Everybody growing up in Oakland has some type of hustler’s mentality.' },
+      { q: 'I felt like I saw the future of rap and his name was Too $hort.' },
+      { q: 'Because we didn’t have the actual labels here in the Bay Area, we made the industry.' },
+      { q: 'You can’t really do nothing too fast there but drive.' },
+    ] },
+  { id: 'digital-underground', name: 'Digital Underground y KMEL', family: 'oeste', start: 1987, end: 2000, place: 'Oakland y Berkeley',
+    aka: ['Shock G', 'Humpty Hump', 'Raw Fusion', 'KMEL', 'Summer Jam'],
+    desc: 'Mientras Public Enemy y N.W.A se disputaban la conciencia del hip hop, Shock G (Gregory Jacobs), Chopmaster J y Kenny K formaron en 1987 Digital Underground, un grupo excéntrico devoto de Parliament-Funkadelic que absorbió a Raw Fusion (Money-B, DJ Fuze). KMEL, la emisora pop de Keith Naftaly, cambió el Top 40 por hip hop, R&B, reggae y house, rompió a Hammer, Vanilla Ice o DJ Quik e inventó el Summer Jam. Tras «Underwater Rimes», Tommy Boy publicó Sex Packets (1990): «The Humpty Dance» de su alter ego Humpty Hump los hizo estrellas pop, con «Doowutchyalike» y «Freaks of the Industry». Precursores del G-funk de Dr. Dre y trampolín de Tupac. Shock G murió en 2021.',
+    artists: ['Shock G', 'Money-B', 'Chopmaster J', 'Kenny K', 'DJ Fuze', 'Raw Fusion', 'Tupac Shakur', 'MC Hammer', 'Keith Naftaly', 'Hosh Gureli', 'Paris', 'DJ Quik', 'Vanilla Ice'],
+    labels: ['Tommy Boy', 'KMEL', 'Summer Jam'],
+    tracks: [
+      { a: 'Digital Underground', t: 'Underwater Rimes', y: 1988 },
+      { a: 'Digital Underground', t: 'Sex Packets', y: 1990, yq: 'Digital Underground Sex Packets full album', ess: 1 },
+      { a: 'Digital Underground', t: 'The Humpty Dance', y: 1990 },
+      { a: 'Digital Underground', t: 'Doowutchyalike', y: 1989 },
+      { a: 'Digital Underground', t: 'Freaks of the Industry', y: 1990 },
+      { a: 'Paris', t: 'Break the Grip of Shame', y: 1989 },
+      { a: 'MC Hammer', t: 'U Can’t Touch This', y: 1990 },
+      { a: 'Vanilla Ice', t: 'Ice Ice Baby', y: 1990 },
+    ],
+    influences: ['too-short', 'native-tongues'],
+    refs: [{ q: 'Maybe because we didn’t have any guidelines or anybody to tell us “This is the way that it has to be done,” from it just came authenticity of who we were and where we were.' }] },
+  { id: 'hyphy', name: 'Mac Dre, E-40 y el hyphy', family: 'oeste', start: 1989, end: 2008, place: 'Vallejo, Oakland y Sacramento',
+    aka: ['Mac Dre', 'Thizz Entertainment', 'hyphy', 'ghost riding', 'Keak Da Sneak', 'E-40'],
+    desc: 'Andre Hicks, Mac Dre, se dio a conocer en el instituto con «Too Hard for the Fuckin’ Radio»; la policía de Vallejo, a la que criticaba, usó sus letras contra él y en 1992 aceptó cinco años por una conspiración de atraco en Fresno en la que apenas tuvo que ver, sin delatar a nadie; grabó Back n da Hood por teléfono desde la cárcel. Al salir fundó Thizz Entertainment en Sacramento y llevó la fiesta a toda la bahía: el hyphy (palabra de Keak Da Sneak), bajos martilleantes, baile frenético y «ghost riding». Lo mataron a tiros en Kansas City en 2004 y su muerte sigue sin resolver: el rey de la bahía. En 2006 el hyphy llegó al país con My Ghetto Report Card de E-40, Mistah F.A.B., Too $hort y Keak Da Sneak; para Mac Mall, la etiqueta acabó haciendo que todo sonara igual.',
+    artists: ['Mac Dre', 'E-40', 'Keak Da Sneak', 'Mistah F.A.B.', 'Mac Mall', 'Too $hort', 'Luniz', 'Hieroglyphics'],
+    labels: ['Thizz Entertainment', 'Strictly Business Records', 'Sick Wid’ It Records'],
+    tracks: [
+      { a: 'Mac Dre', t: 'Too Hard for the Fuckin’ Radio', y: 1989 },
+      { a: 'Mac Dre', t: 'Back n da Hood', y: 1992 },
+      { a: 'E-40', t: 'My Ghetto Report Card', y: 2006, ess: 1 },
+      { a: 'E-40', t: 'Tell Me When to Go', y: 2006 },
+    ],
+    influences: ['too-short'],
+    refs: [
+      { q: 'Mac Dre made all of us party.' },
+      { q: 'Dude is the King of the Bay and he’s dead.' },
+    ] },
+], 15);
+// Canciones citadas entre comillas (tools/mentions.py)
+COMEUP.add([
+  { id: 'too-short', tracks: [
+    { a: 'Too $hort', t: 'Shortrapp', y: 1985 },
+  ] },
+], 15);

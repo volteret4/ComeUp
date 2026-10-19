@@ -1,0 +1,31 @@
+COMEUP.chapter({ n: 13, label: 'Cap. 12', title: 'Parental Advisory' });
+COMEUP.add([
+  { id: 'miami-bass', name: 'Miami bass y 2 Live Crew', family: 'sur', start: 1984, end: 1995, place: 'Miami (Liberty City) y Riverside (California)',
+    aka: ['2 Live Crew', 'Luther Campbell', 'Uncle Luke', 'Pac Jam', 'Luke Records', 'As Nasty as They Wanna Be', 'bass music'],
+    desc: 'El grupo nació en la base aérea de March (California): David Hobbs (Mr. Mixx), que había visto a Afrika Islam scratchear y a la Rock Steady Crew bailar en Londres, conoció a Chris Wong Won (Fresh Kid Ice), luego uno de los pioneros asiático-americanos del rap; con Amazing Vee grabaron «The Revelation»/«2 Live» (1984) en Macola. La cara B nombraba a «Skyywalker», y Luther Campbell, DJ y promotor de Liberty City (un barrio negro partido por la I-95, como el Bronx por su autopista, y en llamas en 1980 tras la absolución de los policías que mataron a Arthur McDuffie), los llevó a Miami. Allí los Ghetto Style DJs y su Pac Jam en una pista de patinaje vivían para el bajo: «Planet Rock» y su 808 habían dado a luz el Miami bass (Maggotron, Pretty Tony, Amos Larkins y el «Bass Rock Express» de MC A.D.E., 1985). Con Brother Marquis y Campbell de maestro de ceremonias y dueño de Luke Skyywalker Records (Lucas le obligó a cambiar el nombre), grabaron «Throw the D» (1986), sobre «Dance to the Drummer’s Beat» y con trozos de Dolemite: el modelo del género, letras cada vez más explícitas y el argot de Miami («baby mama», «fuck boi»). El PMRC de Tipper Gore trajo la pegatina de Parental Advisory; la versión explícita vendía nueve veces más. En Nueva York los despreciaban como «’Bamas». «Me So Horny» (1989), con la frase de La chaqueta metálica y el «Firecracker» de Mass Production, llevó a As Nasty as They Wanna Be a los suburbios y al abogado Jack Thompson y al sheriff Nick Navarro a perseguirlo: en 1990 un juez federal lo declaró obsceno, detuvieron a un tendero y a Campbell y Fresh Kid Ice tras un concierto; con Henry Louis Gates de testigo («el juego de las docenas») el jurado los absolvió, la sentencia se anuló en 1992 y en 1994 el Supremo les dio la razón (9-0) en el caso de la parodia de «Oh, Pretty Woman». Fue el único disco de rap sureño de los ochenta en llegar al platino, y Campbell, el primer gran empresario del hip hop del Sur, mostró que no hacía falta un sello de Nueva York o Los Ángeles.',
+    artists: ['2 Live Crew', 'Luther Campbell', 'Mr. Mixx', 'Fresh Kid Ice', 'Brother Marquis', 'Amazing Vee', 'Rodney-O', 'Ghetto Style DJs', 'MC A.D.E.', 'Amos Larkins II', 'Maggotron', 'Pretty Tony', 'Mantronix', 'MC Shy D', 'Gucci Crew II', 'DJ EFN', 'Bruce Rogow', 'Henry Louis Gates Jr.', 'Nick Navarro', 'Jack Thompson', 'Tipper Gore', 'Trouble Funk'],
+    labels: ['Luke Records', 'Fresh Beat Records', 'Macola Records', 'Pac Jam Teen Disco', 'Sunshine Skateway', 'PMRC', 'Parental Advisory', 'Club Futura'],
+    tracks: [
+      { a: '2 Live Crew', t: 'The Revelation', y: 1984 },
+      { a: '2 Live Crew', t: '2 Live', y: 1984 },
+      { a: 'Caution Crew', t: 'Westside Storie', y: 1983 },
+      { a: 'MC A.D.E.', t: 'Bass Rock Express', y: 1985, ess: 1 },
+      { a: '2 Live Crew', t: 'The 2 Live Crew Is What We Are', y: 1986 },
+      { a: '2 Live Crew', t: 'Throw the D', y: 1986, ess: 1 },
+      { a: '2 Live Crew', t: 'Move Somethin’', y: 1988 },
+      { a: '2 Live Crew', t: 'As Nasty as They Wanna Be', y: 1989, ess: 1 },
+      { a: '2 Live Crew', t: 'Me So Horny', y: 1989 },
+      { a: '2 Live Crew', t: 'Pretty Woman', y: 1989 },
+      { a: 'Mass Production', t: 'Firecracker', y: 1979, yq: '-' },
+      { a: 'Roy Orbison', t: 'Oh, Pretty Woman', y: 1964 },
+      { a: 'Ice-T', t: '99 Problems', y: 1993 },
+    ],
+    influences: ['zulu-nation', 'la-electro', 'schoolly-d'],
+    refs: [
+      { q: 'It’s like a badge of honor to go to the Pac Jam and come out of it alive.' },
+      { q: 'A lot of the early phrasing of hip-hop came out of Miami, too.' },
+      { q: 'The explicit was outselling the clean nine to one.' },
+      { q: 'And I said, “I think we can win, but even if we lose, you’ll win.”' },
+      { q: 'Everybody was just thinking about get they ass out of jail.' },
+    ] },
+], 13);

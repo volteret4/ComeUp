@@ -1,0 +1,53 @@
+COMEUP.chapter({ n: 5, label: 'Cap. 4', title: 'A Real Mix' });
+COMEUP.add([
+  { id: 'downtown', name: 'Downtown: graffiti, punk y hip hop en el Mudd Club, Negril y el Roxy', family: 'cultura', start: 1979, end: 1985, place: 'Manhattan (East Village, SoHo, Chelsea)',
+    aka: ['Fab 5 Freddy', 'Fabulous 5', 'Kool Lady Blue', 'Negril', 'The Roxy', 'Mudd Club', 'Rapture'],
+    desc: 'Fab 5 Freddy (Fred Brathwaite), del grupo de grafiteros de Brooklyn Fabulous 5 con Lee Quiñones, ofrecía en The Village Voice murales por encargo; con Michael Holman montó la Canal Zone Party (1979), donde apareció Jean-Michel Basquiat, mitad de SAMO, y llevó a Bambaataa al Mudd Club. La Zulu Nation y los Funky 4 + 1, que mezclaban punk y hip hop ante los Beastie Boys, bajaron al Ritz, el Mudd Club, Danceteria, Negril y el Roxy de Kool Lady Blue: en Negril, cedido por el mánager de los Clash, se juntaron por primera vez los cuatro elementos; en el Roxy, una pista de patinaje de la calle 18, Bambaataa, Afrika Islam y Grand Mixer D.ST pinchaban para Bianca Jagger, Warhol, la Rock Steady Crew o Madonna. Debbie Harry y Chris Stein (Blondie), amigos de Flash, nombraron a Freddy y a Flash en «Rapture» (1981), primer rap número 1 en Billboard, y llevaron a los Funky 4 + 1 a Saturday Night Live (14 de febrero de 1981), primera actuación de hip hop en la televisión nacional. Para Holman, sin el abrazo del downtown el hip hop no habría sido lo que fue; para Dante Ross, los negros se llevaron pantalones pitillo y opiáceos y los blancos toda esa cultura.',
+    artists: ['Fab 5 Freddy', 'Lee Quiñones', 'Michael Holman', 'Jean-Michel Basquiat', 'Stan Peskett', 'Henry Chalfant', 'Kool Lady Blue', 'Malcolm McLaren', 'Bow Wow Wow', 'Debbie Harry', 'Chris Stein', 'Blondie', 'Funky 4 + 1', 'MC Sha-Rock', 'Afrika Islam', 'Grand Mixer D.ST', 'Rock Steady Crew', 'Dante Ross', 'Madonna', 'Andy Warhol'],
+    labels: ['The Village Voice', 'Mudd Club', 'The Ritz', 'Negril', 'The Roxy', 'Danceteria', 'Saturday Night Live'],
+    tracks: [
+      { a: 'Blondie', t: 'Rapture', y: 1980, ess: 1 },
+      { a: 'Funky 4 + 1', t: 'That’s the Joint', y: 1980, ess: 1 },
+      { a: 'Bow Wow Wow', t: 'Go Wild in the Country', y: 1982 },
+    ],
+    influences: ['zulu-nation', 'crews-mcs'],
+    refs: [
+      { q: 'Arguably, it’s the first hip-hop club in history for that reason, Negril.' },
+      { q: 'It was freedom. Musical freedom, no segregation, no color lines.' },
+      { q: 'What put rap music on the map was when the culture was encapsulated as a multifaceted diamond of dance, writing, song, music, lyrics, visuals, graffiti, and then presented to the world.' },
+    ] },
+  { id: 'tommy-boy', name: 'Tommy Boy Records', family: 'industria', start: 1981, end: 2002, place: 'Nueva York',
+    aka: ['Tom Silverman', 'Monica Lynch', 'Dance Music Report'],
+    desc: 'Tom Silverman, editor de la revista Dance Music Report, fundó Tommy Boy con un préstamo de sus padres y fichó a Bambaataa: «Jazzy Sensation», con los Jazzy Five sobre el «Funky Sensation» de Gwen McCrae, se alejaba del rumbo de Sugar Hill y le permitió contratar a Monica Lynch. Con «Planet Rock» llegaron pedidos de todo el país; asociada a Warner, Tommy Boy ficharía a Stetsasonic, Queen Latifah, De La Soul, Digital Underground o Coolio.',
+    artists: ['Tom Silverman', 'Monica Lynch', 'Afrika Bambaataa', 'Jazzy Five', 'Stetsasonic', 'Queen Latifah', 'De La Soul', 'Digital Underground', 'Coolio'],
+    labels: ['Tommy Boy', 'Dance Music Report', 'Warner Bros.'],
+    tracks: [
+      { a: 'Gwen McCrae', t: 'Funky Sensation', y: 1981 },
+      { a: 'Afrika Bambaataa & the Jazzy 5', t: 'Jazzy Sensation', y: 1981 },
+    ],
+    influences: ['zulu-nation'],
+    refs: [{ q: 'It was the first huge hit at Tommy Boy, and all of a sudden we were getting calls from all over the country for orders of this record in markets where we had never had distribution.' }] },
+  { id: 'zulu-nation', note: 'Bambaataa fue de los tres padres fundadores el que más influyó en el paso al vinilo. Con Arthur Baker y John Robie, en homenaje a Kraftwerk, grabó con la Soulsonic Force «Planet Rock» (1982): introdujo la caja de ritmos Roland TR-808 en el hip hop y lo fundió con la electrónica, «Numbers» más un ritmo de calipso. Sonó en el programa de Mr. Magic y Marley Marl en WHBI y dio vida al electro-funk; era, además, un disco espiritualmente consciente y futurista.',
+    artists: ['Arthur Baker', 'John Robie', 'Kraftwerk'],
+    tracks: [
+      { a: 'Afrika Bambaataa & the Soulsonic Force', t: 'Planet Rock', y: 1982, ess: 1 },
+      { a: 'Kraftwerk', t: 'Numbers', y: 1981 },
+      { a: 'Kraftwerk', t: 'Trans-Europe Express', y: 1977 },
+    ],
+    refs: [
+      { q: 'Technology meets creativity.' },
+      { q: '“Planet Rock” is a hodgepodge between [Kraftwerk’s] “Numbers” and a calypso beat.' },
+    ] },
+  { id: 'wild-style', name: 'Wild Style y el hip hop en el cine', family: 'cultura', start: 1980, end: 1988, place: 'El Bronx y Lower East Side (East River Park)',
+    aka: ['Charlie Ahearn', 'Beat Street', 'Breakin’', 'Times Square Show', 'Lady Pink'],
+    desc: 'Charlie Ahearn conoció a Fab 5 Freddy en el Times Square Show (1980) y juntos idearon Wild Style (1982), con los cuatro elementos: los grafiteros Lee Quiñones y Lady Pink, Freddy como el promotor Phade, Flash pinchando en su cocina, la rivalidad entre los Cold Crush y los Fantastic Five convertida en partido de baloncesto y batalla, y Grandmaster Caz y sus cuadernos de rimas. El final, un concierto sin permiso en el anfiteatro del East River Park, acabó en «caos de hip hop» con Kool Moe Dee pidiendo saltar. Se estrenó en Japón en 1983 (en Tokio un chaval sin inglés recitaba una cinta de los Cold Crush) y llevó el hip hop al mundo antes que la música, como recordaba Monie Love en Londres; le siguieron Beat Street y Breakin’. Hacia 1988, con Run-DMC, la Costa Oeste y el crack, los pioneros dejaron de recibir llamadas.',
+    artists: ['Charlie Ahearn', 'Fab 5 Freddy', 'Lee Quiñones', 'Lady Pink', 'Grandmaster Flash', 'Grandmaster Caz', 'Cold Crush Brothers', 'Fantastic Five', 'Busy Bee Starski', 'Kool Moe Dee', 'Grand Mixer D.ST', 'Monie Love', 'New York City Breakers', 'Joe Conzo'],
+    labels: ['Wild Style', 'Beat Street', 'Breakin’', 'Times Square Show'],
+    tracks: [],
+    influences: ['downtown', 'cold-crush'],
+    refs: [
+      { q: 'And it was absolutely hip-hop chaos, which was heaven for the film.' },
+      { q: 'Wild Style is the reason why hip-hop even exists around the planet.' },
+      { q: 'The crack epidemic came and pretty much wiped out a lot of us. It took out a whole generation of pioneers.' },
+    ] },
+], 5);

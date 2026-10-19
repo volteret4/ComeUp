@@ -1,0 +1,216 @@
+
+
+
+@font-face {
+font-family:"Helvetica Now Text";
+font-style: normal;
+font-weight: normal;
+src:url(../fonts/HelveticaNowText.otf);
+}
+
+@font-face {
+font-family:"Helvetica Now Text";
+font-style: italic;
+font-weight: normal;
+src:url(../fonts/HelveticaNowTextIt.otf);
+}
+
+@font-face {
+font-family:"Helvetica Now Text";
+font-style: italic;
+font-weight: bold;
+src:url(../fonts/HelveticaNowTextBdIt.otf);
+}
+
+@font-face {
+font-family:"Helvetica Now Text";
+font-style: normal;
+font-weight: bold;
+src:url(../fonts/HelveticaNowTextBold.otf);
+}
+.helvetica-now-text { font-family:"Helvetica Now Text";}
+.helvetica-now-text-dc::first-letter { font-family:"Helvetica Now Text";}
+
+
+/* ========== DEFAULTS: Easypress and Vendor ===========*/
+
+/* version 1.0.2 */
+
+/* --------------- paragraph and alignment classes --------------- */
+.indent {
+	text-indent: 1.5em;
+}
+.small {
+	font-size: .9em;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+	text-indent: 0;
+}
+
+/* ---------------- heading alignment --------------- */
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+/* --------------- default textbox styles --------------- */
+aside.textbox, div.textbox {
+	margin: 2em 4% 2em 4%;
+	padding: 4%;
+}
+.textbox {
+	border: 1px solid;
+}
+
+/* --------------- create space above paragraph --------------- */
+p.spaceabove, div.spaceabove, li.spaceabove {
+	margin-top: 1em;
+}
+p.morespaceabove, div.morespaceabove, li.morespaceabove {
+	margin-top: 2.5em;
+}
+p.nospaceabove {
+	margin-top: 0;
+}
+.page_top_padding {
+	margin-top: 10%;
+}
+
+/* --------------- hanging indents --------------- */
+p.hanging {
+	margin-left: 10%;
+	text-indent: -10%;
+	text-align: left;
+}
+
+/* --------------- figure and figcaption -----------------*/
+.figure {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+.figure_top {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
+	page-break-inside: avoid;
+}
+.figure_bottom {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+.figure_nomargin {
+	text-align: center;
+	page-break-inside: avoid;
+}
+div.figcaption, figcaption.figcaption {
+	text-align: center;
+}
+.figcaption {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1em;
+}
+p.figcaption {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+.figcopyright {
+	text-align: left;
+	font-size: 0.7em;
+}
+span.figure_inline img {
+	vertical-align: middle;
+}
+
+/* ---------------- image classes -------------------*/
+.width_100 {width: 100%; text-align: center; max-height: 100%; clear: both;}
+.width_90 {margin: 0 5%; text-align: center; max-height: 100%; clear: both;}
+.width_80 {margin: 0 10%; text-align: center; max-height: 100%; clear: both;}
+.width_70 {margin: 0 15%; text-align: center; max-height: 100%; clear: both;}
+.width_60 {margin: 0 20%; text-align: center; max-height: 100%; clear: both;}
+.width_50 {margin: 0 25%; text-align: center; max-height: 100%; clear: both;}
+.width_40 {margin: 0 30%; text-align: center; max-height: 100%; clear: both;}
+.width_30 {margin: 0 35%; text-align: center; max-height: 100%; clear: both;}
+.width_20 {margin: 0 40%; text-align: center; max-height: 100%; clear: both;}
+.width_10 {margin: 0 45%; text-align: center; max-height: 100%; clear: both;}
+.height_100 {
+	text-align: center;
+	height: 100%;
+	height: 98vh;
+	max-height: 100%;
+	max-width: 100%;
+	clear: both;
+}
+img.inline {vertical-align: middle;}
+
+/* ---------------- character styles --------------- */
+.underline {
+	text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.roman {
+	font-style: normal;
+}
+
+/* ===================== END DEFAULTS ==================*/
+
+.para-illcap {
+font-weight : bold;
+font-size : 0.85em;
+line-height : inherit;
+text-align : left;
+margin-bottom : 0;
+margin-top : 0;
+font-family:"Helvetica Now Text";
+}
+
+.para-illcre {
+font-weight : bold;
+font-size : 0.7em;
+line-height : inherit;
+margin-top : 0.75em;
+text-align : left;
+margin-bottom : 0;
+font-family:"Helvetica Now Text";
+}
+
+.figcopyright{
+    font-family:"Helvetica Now Text";
+    font-size: 0.65em;
+}
+
+.para-p {
+font-size : 1em;
+line-height : inherit;
+margin-bottom : 0;
+margin-top : 0;
+}
+
+
+.width_68 {margin: 0 16%; text-align: center; max-height: 100%; clear: both;}
+.width_79 {margin: 0 10.5%; text-align: center; max-height: 100%; clear: both;}
+.width_83 {margin: 0 8.5%; text-align: center; max-height: 100%; clear: both;}
+.width_86 {margin: 0 7%; text-align: center; max-height: 100%; clear: both;}
+.width_87 {margin: 0 6.5%; text-align: center; max-height: 100%; clear: both;}
+.width_93 {margin: 0 3.5%; text-align: center; max-height: 100%; clear: both;}
+
+ .figure_full_caption{
+     page-break-before: always;
+ }
+

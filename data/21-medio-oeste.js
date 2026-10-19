@@ -1,0 +1,80 @@
+COMEUP.chapter({ n: 21, label: 'Cap. 20', title: 'The Consciousness' });
+COMEUP.add([
+  { id: 'chicago', name: 'Chicago: hip-house, Common, No I.D. y los choppers', family: 'otras', start: 1986, end: 2015, place: 'Chicago (South Side)',
+    aka: ['hip-house', 'WHPK', 'Common Sense', 'No I.D.', 'choppers', 'Do or Die', 'Twista', 'drill'],
+    desc: 'Sin atención de los sellos de las costas, Chicago mezcló el hip hop con su house en fiestas de sótano (Fast Eddie, Vitamin C) y lo escuchaba en el programa nocturno de JP Chill en WHPK, la radio de la Universidad de Chicago. Common Sense, de C.D.R., salió en la Unsigned Hype de The Source; Resurrection (1994), producido por No I.D. (el chamán que luego fue mentor de Kanye West y trabajó con Jay-Z), fue el primer gran disco de rap de la ciudad, con «I Used to Love H.E.R.», una mujer como metáfora del hip hop extraviado por el gangsta. Del Medio Oeste salieron los «choppers», de rima vertiginosa como Kool Moe Dee: Bone Thugs-n-Harmony (de Cleveland, en Ruthless), Tech N9ne, Twista, Crucial Conflict y Do or Die, cuyo «Po Pimp» con Twista los llevó a Rap-A-Lot. Más tarde, el drill (Chief Keef, Lil Durk); y la conciencia que Rhymefest reclama como sello colectivo: Common, Kanye, Lupe Fiasco, Chance the Rapper.',
+    artists: ['Fast Eddie', 'Vitamin C', 'JMD', 'Kool Rock Steady', 'JP Chill', 'Common', 'No I.D.', 'The Twilite Tone', 'Da Brat', 'Twista', 'Do or Die', 'AK', 'Crucial Conflict', 'Legendary Traxster', 'Johnny P', 'Bone Thugs-n-Harmony', 'Tech N9ne', 'Capital D', 'Rhymefest', 'Lupe Fiasco', 'Chance the Rapper', 'Chief Keef', 'Lil Durk', 'G Herbo'],
+    labels: ['WHPK', 'Relativity', 'Rap-A-Lot Records', 'Atlantic Records', 'Ruthless Records'],
+    tracks: [
+      { a: 'Fast Eddie', t: 'Hip House', y: 1988 },
+      { a: 'Common Sense', t: 'Take It EZ', y: 1992 },
+      { a: 'Common Sense', t: 'Can I Borrow a Dollar?', y: 1992 },
+      { a: 'Common Sense', t: 'Resurrection', y: 1994, ess: 1 },
+      { a: 'Common Sense', t: 'I Used to Love H.E.R.', y: 1994 },
+      { a: 'Do or Die', t: 'Po Pimp', y: 1995 },
+    ],
+    influences: ['native-tongues', 'the-source', 'houston'],
+    refs: [
+      { q: 'That whole Common album, to me, was the first great Chicago hip-hop album.' },
+      { q: 'No I.D. is a true living hip-hop shaman' },
+      { q: 'And that label is the consciousness of hip-hop.' },
+    ] },
+  { id: 'eminem', name: 'Eminem, Esham y el Detroit de las batallas', family: 'otras', start: 1989, end: 2005, place: 'Detroit',
+    aka: ['Eminem', 'Slim Shady', 'Esham', 'acid rap', 'Scribble Jam', 'Rap Olympics', 'The Wake Up Show'],
+    desc: 'Esham, influido por los Geto Boys y el punk, retrató en Boomin’ Words from Hell (1989) el Detroit del crack y de la Devil’s Night: el «acid rap» («un puñetazo en la cara alegre») y un sello independiente, Reel Life. Marshall Mathers, amigo de Proof en el circuito de batallas, fracasó con Infinite (1996, F.B.T. y Web Entertainment); despedido de cocinero, recorrió el país compitiendo: segundo en la Scribble Jam de Cincinnati (1997), donde venció a Rhymefest con una rima sobre la raza que el público aplaudió; Rhymefest obligó a Wendy Day a escuchar su maqueta y ella lo llevó a sus Rap Olympics de Los Ángeles, donde perdió ante Otherwize pero ganó la visita a The Wake Up Show de Sway & King Tech: allí lo oyó Dr. Dre, que lo fichó para Aftermath/Interscope. Un rapero blanco que superó las acusaciones de apropiación y abrió paso a Mac Miller o Logic.',
+    artists: ['Esham', 'Eminem', 'Proof', 'Jeff Bass', 'Mark Bass', 'Rhymefest', 'Wendy Day', 'Juice', 'Otherwize', 'Sway & King Tech', 'Dr. Dre', 'Capital D'],
+    labels: ['Reel Life Productions', 'Web Entertainment', 'Aftermath Entertainment', 'Interscope', 'Scribble Jam', 'Rap Olympics', 'The Wake Up Show'],
+    tracks: [
+      { a: 'Esham', t: 'Boomin’ Words from Hell', y: 1989 },
+      { a: 'Eminem', t: 'Infinite', y: 1996 },
+      { a: 'Eminem', t: 'The Slim Shady LP', y: 1999, ess: 1 },
+    ],
+    influences: ['houston', 'g-funk'],
+    refs: [
+      { q: 'For those that don’t know, acid rap would be a happy punch in the face.' },
+      { q: 'And ultimately, I prevailed in the battle, but goddammit Eminem won the war.' },
+    ] },
+  { id: 'nelly', name: 'Nelly y los St. Lunatics', family: 'otras', start: 1997, end: 2004, place: 'St. Louis',
+    aka: ['Country Grammar', 'St. Lunatics', 'Jay E'],
+    desc: 'Ningún rapero de St. Louis había llegado al gran público; los St. Lunatics (Murphy Lee, Ali, Kyjuan, City Spud, Slo’ Down) tuvieron éxito regional con «Gimme What U Got» (1997) y, sin contrato de grupo, empujaron a Nelly en solitario a Universal. Country Grammar (2000), producido casi entero por Jay E en un estudio de una pista de patinaje donde no se podía fumar, fue número 1 más de un mes: sing-alongs de pop-rap con acento del Medio Oeste, el canto que heredaría Drake.',
+    artists: ['Nelly', 'St. Lunatics', 'Murphy Lee', 'Ali', 'Kyjuan', 'City Spud', 'Jay E'],
+    labels: ['Universal Music Group'],
+    tracks: [
+      { a: 'St. Lunatics', t: 'Gimme What U Got', y: 1997 },
+      { a: 'Nelly', t: 'Country Grammar', y: 2000, ess: 1 },
+      { a: 'Nelly', t: 'Country Grammar (Hot Shit)', y: 2000 },
+      { a: 'Nelly', t: 'E.I.', y: 2000 },
+      { a: 'Nelly', t: 'Ride wit Me', y: 2001 },
+    ],
+    influences: ['dungeon-family'],
+    refs: [{ q: 'Nelly was part of that new culture of hip-hop of where, to me, it kind of birthed a lot of rappers today with the singsongy sound.' }] },
+  { id: 'kanye-west', name: 'Kanye West', family: 'otras', start: 1996, end: 2010, place: 'Chicago y Nueva York (Roc-A-Fella)',
+    aka: ['The College Dropout', 'Late Registration', 'Jesus Walks', 'Go Getters'],
+    desc: 'Hijo de la profesora de inglés Donda West, aprendió con No I.D. y Kyambo «Hip-Hop» Joshua lo llevó a Roc-A-Fella como productor: soul acelerado para Jay-Z, junto a Just Blaze. Nadie lo quería como rapero; al ver el documental Resurrection de Tupac entendió que podía «ser él mismo», y de ahí salieron el osito y el concepto de The College Dropout (2004). Rhymefest le pasó el «Walk with Me» del coro de un centro de rehabilitación: «Jesus Walks» («el verso es el pecado, el estribillo la salvación») ganó el Grammy. Producido casi entero por él, el disco, cuatro veces platino, apartó la violencia y el consumismo por la vulnerabilidad, la religión y la educación; Late Registration (2005) siguió con «Gold Digger», «Diamonds from Sierra Leone» y «Drive Slow» con Paul Wall. Luego vinieron las polémicas: «George Bush no se preocupa por los negros», Taylor Swift, Trump.',
+    artists: ['Kanye West', 'Donda West', 'No I.D.', 'Kyambo “Hip-Hop” Joshua', 'Gee Roberson', 'Just Blaze', 'Jay-Z', 'Rhymefest', 'Consequence', 'GLC', 'Paul Wall', 'Plain Pat', 'Mike Dean', 'Jermaine Dupri'],
+    labels: ['Roc-A-Fella Records', 'Def Jam', 'Hip Hop Since 1978'],
+    tracks: [
+      { a: 'Addicts Rehabilitation Center Gospel Choir', t: 'Walk with Me', y: 1997 },
+      { a: 'Kanye West', t: 'The College Dropout', y: 2004, ess: 1 },
+      { a: 'Kanye West', t: 'Jesus Walks', y: 2004 },
+      { a: 'Kanye West', t: 'Hey Mama', y: 2005 },
+      { a: 'Kanye West', t: 'Late Registration', y: 2005 },
+      { a: 'Kanye West', t: 'Gold Digger', y: 2005 },
+      { a: 'Kanye West', t: 'Drive Slow', y: 2006 },
+      { a: 'Paul Wall', t: 'Sittin’ Sidewayz', y: 2005 },
+    ],
+    influences: ['chicago', 'jay-z', 'tupac'],
+    refs: [
+      { q: 'He said, “Nah, man, we’re gonna talk about sinning. The verse is the sin, the chorus is the salvation.”' },
+      { q: 'I remember him saying, “I figured it out. I can be myself.”' },
+    ] },
+], 21);
+// Canciones citadas entre comillas (tools/mentions.py)
+COMEUP.add([
+  { id: 'nelly', tracks: [
+    { a: 'Nelly', t: 'Batter Up', y: 2000 },
+  ] },
+  { id: 'kanye-west', tracks: [
+    { a: 'Doug E. Fresh', t: 'All the Way to Heaven', y: 1986 },
+  ] },
+], 21);

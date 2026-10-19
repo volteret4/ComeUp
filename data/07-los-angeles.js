@@ -1,0 +1,37 @@
+COMEUP.chapter({ n: 7, label: 'Cap. 6', title: 'Completely Different Nations' });
+COMEUP.add([
+  { id: 'la-electro', name: 'Electro de Los Ángeles: Wreckin’ Cru y Uncle Jamm’s Army', family: 'oeste', start: 1979, end: 1987, place: 'Compton y Los Ángeles',
+    aka: ['World Class Wreckin’ Cru', 'Uncle Jamm’s Army', 'Eve After Dark', 'Disco Construction', 'Radiotron', 'Egyptian Lover', 'mobile DJs'],
+    desc: 'Las cintas del hip hop llegaban a la Costa Oeste con los familiares y los soldados; allí, entre la herencia de los disturbios de Watts (1965) y el «blockbusting» que convirtió Compton en una ciudad negra, la escena de DJs móviles se volcó en Bambaataa y la electrónica. Alonzo Williams, antes Disco Lonzo, dirigió el Eve After Dark desde 1979 con concursos de baile y rap (Ice-T ganó uno con Kurtis Blow de jurado) y formó la World Class Wreckin’ Cru, grupo de electro-rap con trajes de lentejuelas: DJ Yella, Cli-N-Tel y Dr. Dre, vecino suyo que mezclaba «Please Mr. Postman» con un break. Davy DMX, el DJ de Kurtis Blow, enseñó a Yella, Yella a Dre y Dre a los demás; «Slice» y «Surgery» salieron en Kru-Cut y Macola antes de fichar por CBS/Epic. Su rival, el Uncle Jamm’s Army de Rodger Clayton y Gid Martin, juntaba a diez mil chavales en el Sports Arena solo con DJs y crió a Ice-T, DJ Pooh y Egyptian Lover; se arrancaban los carteles a cinco dólares la pieza. En el club Radio (luego Radiotron), más club punk que otra cosa, Chris «The Glove» Taylor, que scratcheaba «como un batería», puso la música de Breakin’ (1984) y produjo con Ice-T «Reckless».',
+    artists: ['Alonzo Williams', 'World Class Wreckin’ Cru', 'Dr. Dre', 'DJ Yella', 'Cli-N-Tel', 'Joe Cooley', 'Rodger Clayton', 'Gid Martin', 'Uncle Jamm’s Army', 'Egyptian Lover', 'DJ Pooh', 'Arabian Prince', 'Chris “The Glove” Taylor', 'David Storrs', 'Davy DMX', 'Disco Daddy & Captain Rapp', 'Duffy Hooks', 'Deadly Threat'],
+    labels: ['Eve After Dark', 'Kru-Cut Records', 'Macola Records', 'CBS/Epic', 'Radio (Radiotron)', 'Los Angeles Sports Arena', 'Delicious Records', 'Breakin’', 'Breakin’ ’N’ Enterin’'],
+    tracks: [
+      { a: 'Disco Daddy & Captain Rapp', t: 'The Gigolo Rapp', y: 1981 },
+      { a: 'The Marvelettes', t: 'Please Mr. Postman', y: 1961 },
+      { a: 'Cameo', t: 'Shake Your Pants', y: 1980 },
+      { a: 'World Class Wreckin’ Cru', t: 'Slice', y: 1985 },
+      { a: 'World Class Wreckin’ Cru', t: 'Surgery', y: 1984, ess: 1 },
+      { a: 'Egyptian Lover', t: 'Egypt, Egypt', y: 1984 },
+      { a: 'Ice-T', t: 'Reckless', y: 1984 },
+    ],
+    influences: ['zulu-nation', 'kurtis-blow', 'run-dmc'],
+    refs: [
+      { q: 'The East Coast and the West Coast are completely different nations at this time.' },
+      { q: 'When hip-hop finally took root on the West Coast, I was the one that dug the hole for the root.' },
+      { q: 'Because he taught Yella, and then Yella taught Dre and subsequently me, and Joe Cooley.' },
+      { q: 'Rodger looked at the crowd, pointed to all those kids, and he says, “Does it look like I need fucking radio?”' },
+    ] },
+  { id: 'kday', name: 'Greg Mack y KDAY 1580', family: 'industria', start: 1983, end: 1991, place: 'Los Ángeles',
+    aka: ['KDAY', 'Mack Attack Mixmasters', 'Traffic Jam', 'Skateland', 'World on Wheels', 'Roadium Swap Meet'],
+    desc: 'Greg Mack llegó de Houston en 1983 para salvar KDAY 1580-AM, la última de las cinco emisoras negras de la ciudad; abrió la ventana de su casa en South Central, oyó Run-DMC y Kurtis Blow en todos los coches y puso rap: en el primer sondeo pasaron a segundos. Rodger Clayton le despreció («¿parece que necesito la radio?») y se alió con Alonzo Williams: sus «Mack Attack Mixmasters» y el «Traffic Jam» pusieron en antena las mezclas de cuatro pistas de Dr. Dre y Yella, que se vendían en el Roadium Swap Meet. Sin payola y con las puertas abiertas, rompió casi todos los grupos de la Costa Oeste (Yo-Yo, Sir Jinx, N.W.A) y también el freestyle; organizaba bailes en las pistas de patinaje, baratas y con buen sonido, rotando territorios: Skateland (Bloods, en Compton), World on Wheels (Crips), Sherman Square (bandas latinas), la Casa Camino Real como terreno neutral y el 321 Club para los chicos blancos. Las bandas lo respetaban y hasta le llamaban para explicar sus tiroteos. «Sin KDAY no sería quien soy» (Murs).',
+    artists: ['Greg Mack', 'Alonzo Williams', 'Dr. Dre', 'DJ Yella', 'Sir Jinx', 'Yo-Yo', 'Ice Cube', 'Murs', 'New Edition', 'Craig Schweisinger'],
+    labels: ['KDAY 1580-AM', 'Majic 102 (Houston)', 'Doodo’s', 'Skateland', 'World on Wheels', 'Casa Camino Real', 'Roadium Swap Meet'],
+    tracks: [],
+    influences: ['frankie-crocker', 'la-electro'],
+    refs: [
+      { q: 'It didn’t take long to figure out just by opening your window what everybody was listening to, which was rap music.' },
+      { q: 'Because it wasn’t just two turntables. Dre actually made it a production.' },
+      { q: 'It was what everybody Black listened to. It was everything for us.' },
+      { q: 'I wouldn’t be who I am without KDAY.' },
+    ] },
+], 7);
